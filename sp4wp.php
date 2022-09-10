@@ -3,8 +3,8 @@
 /**
  * Plugin Name: Simple Portfólio for WordPress
  * Plugin URI: https://wordpress.org/sp4wp
- * Description: My plugin's description
- * Version: 1.0
+ * Description: Poste seus trabalhos recentes de uma maneira muito simples.
+ * Version: 1.1.0
  * Requires at least: 5.6
  * Author: Rafael dos Santos
  * Author URI: https://rafael.work
@@ -48,7 +48,7 @@ if ( ! class_exists( 'SP4WP' ) ){
 
             define( 'SP4WP_PATH', plugin_dir_path( __FILE__ ) );
             define( 'SP4WP_URL', plugin_dir_url( __FILE__ ) );
-            define( 'SP4WP_VERSION', '1.0.0' );
+            define( 'SP4WP_VERSION', '1.1.0' );
         }
 
         public static function activate(){
