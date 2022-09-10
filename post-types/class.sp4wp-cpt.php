@@ -21,7 +21,7 @@ if ( ! class_exists( 'SP4WP_Post_Type' ) ){
 
             register_post_type( 'sp4wp', array(
                 'label' => 'Projeto', 
-                'description' => 'Projetos', 
+                'description' => 'Confira meu Portfólio WordPress desenvolvido ao longo de uma década de entregas sob demanda para empresas de todo Brasil 🙂', 
                 'labels' => array(
                     'name' => 'Projetos', 
                     'singular_name' => 'Projeto'
@@ -48,7 +48,7 @@ if ( ! class_exists( 'SP4WP_Post_Type' ) ){
         public function change_title_archive_page( $title ) {
 
             if ( is_archive( 'sp4wp' ) ) {
-                $title = 'Portfólio';
+                $title = 'Portfólio WordPress';
             }
         
             return $title;
