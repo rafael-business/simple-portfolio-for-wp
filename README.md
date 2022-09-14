@@ -1,2 +1,3 @@
-# simple-portfolio-for-wp
-Simple Portfólio for WordPress
+# Simple Portfólio for WordPress
+
+Poste seus trabalhos recentes de uma maneira muito simples.
